@@ -14,7 +14,7 @@ public class DateDemo1 {
 
         SimpleDateFormat sd = new SimpleDateFormat("dd-MM-yyyy");
         String dateStr = sd.format(date);
-        System.out.println("dateStr="+dateStr);
+        System.out.println("dateStr="+dateStr);//
 
     }
 }
