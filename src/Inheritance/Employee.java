@@ -27,5 +27,5 @@ class Programmer extends Employee
 
         System.out.println(p.salary);
         p.empWork();
-    }
+    }//
 }
