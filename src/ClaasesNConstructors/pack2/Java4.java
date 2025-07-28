@@ -1,6 +1,6 @@
 package ClaasesNConstructors.pack2;
 
-import pack1.Java1;
+import ClaasesNConstructors.pack1.Java1;
 
 public class Java4 {
 
