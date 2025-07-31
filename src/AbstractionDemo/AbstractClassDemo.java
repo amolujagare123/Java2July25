@@ -5,7 +5,7 @@ public abstract class AbstractClassDemo {
     abstract void run();
     abstract void start();
 
-    void display()
+     void display()
     {
         System.out.println("display");
     }
