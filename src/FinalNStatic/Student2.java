@@ -15,12 +15,12 @@ public class Student2 {
     public static void staticMethod1()
     {
         System.out.println("staticMethod1");
-        System.out.println("rno="+rno); // non-static - not allowed
-        System.out.println("name="+name); // non-static - not allowed
+      //  System.out.println("rno="+rno); // non-static - not allowed
+      //  System.out.println("name="+name); // non-static - not allowed
         System.out.println("college="+college);// static - allowed
         staticMethod2(); // static - allowed
-        nonStaticMethod(); // non-static - not allowed
-        display(); // non-static - not allowed
+      //  nonStaticMethod(); // non-static - not allowed
+      //  display(); // non-static - not allowed
     }
 
     public static void staticMethod2()
