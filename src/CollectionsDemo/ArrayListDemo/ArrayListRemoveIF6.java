@@ -26,9 +26,7 @@ public class ArrayListRemoveIF6 {
         System.out.println("al="+al);
         // predicate symbol ->
 
-        // Homework -remove all Vowels - a,e,io,u
-
-        al.removeIf(num -> num%3==0 );
+        al.removeIf(ch -> (ch=='a' || ch=='o' || ch=='e'||ch=='i'||ch=='u') );
 
         System.out.println("al="+al);//
 
